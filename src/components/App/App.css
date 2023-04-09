@@ -1,0 +1,27 @@
+:root {
+    --col-width: calc(100% / 12);
+    --container-space: 120px;
+    --container-width: 1264px;
+    --arrow-size: 40px;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #383838;
+}
+
+.container {
+    max-width: var(--container-width);
+    padding: var(--container-space) 16px;
+    margin: 0 auto;
+}
+
+.homes {
+    background-color: #eaf0f9;
+}
