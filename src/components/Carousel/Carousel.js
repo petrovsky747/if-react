@@ -1,11 +1,10 @@
 import React from 'react';
 import Flickity from 'react-flickity-component';
 import './flickity.css';
-import { array } from './data';
-import { Card } from '../Card';
+import './Carousel.css';
 
 const flickityOptions = {
-  initialIndex: 2,
+  cellAlign: 'center',
   contain: true,
   draggable: false,
   groupCells: true,
@@ -17,11 +16,10 @@ const flickityOptions = {
     y1: 35,
     x2: 70,
     y2: 35,
-    x3: 45,
-  },
+    x3: 45 }
 }
 
-export function Carousel() {
+export function Carousel({children}) {
   return (
     <Flickity
       className={'carousel'} // default ''
@@ -31,14 +29,7 @@ export function Carousel() {
       reloadOnUpdate // default false
       static // default false
     >
-        {array.map(({
-           id,
-           name,
-           city,
-           country,
-           imageUrl}) => (
-             <Card key={id} name={name} city={city} country={country} imageUrl={imageUrl}></Card>
-        ))}
+      {children}
     </Flickity>
   )
 }
