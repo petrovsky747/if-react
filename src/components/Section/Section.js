@@ -1,7 +1,5 @@
 import React from 'react';
 
-export const Section = ({ children, className}) => (
-<section className={className}>
-  {children}
-</section>
+export const Section = ({ children, className }) => (
+  <section className={className}>{children}</section>
 );

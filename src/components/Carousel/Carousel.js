@@ -16,10 +16,11 @@ const flickityOptions = {
     y1: 35,
     x2: 70,
     y2: 35,
-    x3: 45 }
-}
+    x3: 45,
+  },
+};
 
-export function Carousel({children}) {
+export function Carousel({ children }) {
   return (
     <Flickity
       className={'carousel'} // default ''
@@ -31,6 +32,5 @@ export function Carousel({children}) {
     >
       {children}
     </Flickity>
-  )
+  );
 }
-
