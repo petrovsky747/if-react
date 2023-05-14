@@ -1,0 +1,27 @@
+.hotels-col__image {
+  width: 100%;
+  max-width: 296px;
+  min-height: 296px;
+  max-height: 296px;
+}
+
+.link {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.16;
+  color: #3077c6;
+  margin-top: 18px;
+}
+
+.hotels-col__link,
+.hotels-col__subtitle {
+  text-align: left;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.16;
+  color: #bfbfbf;
+  margin-top: 27px;
+}

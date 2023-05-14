@@ -1,0 +1,21 @@
+.carousel-cell {
+  width: 296px;
+  height: 430px;
+  margin-right: 16px;
+}
+
+.flickity-prev-next-button {
+  top: 35%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.flickity-prev-next-button.previous {
+  left: -20px;
+}
+
+.flickity-prev-next-button.next {
+  right: -20px;
+}
